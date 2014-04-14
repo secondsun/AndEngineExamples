@@ -31,7 +31,7 @@ import org.andengine.examples.game.pong.adt.messages.server.UpdatePaddleServerMe
 import org.andengine.examples.game.pong.adt.messages.server.UpdateScoreServerMessage;
 import org.andengine.examples.game.pong.util.constants.PongConstants;
 import org.andengine.extension.multiplayer.protocol.adt.message.IMessage;
-import org.andengine.extension.multiplayer.protocol.adt.message.client.IClientMessage;
+import org.andengine.extension.multiplayer.adt.message.client.IClientMessage;
 import org.andengine.extension.multiplayer.protocol.server.IClientMessageHandler;
 import org.andengine.extension.multiplayer.protocol.server.SocketServer;
 import org.andengine.extension.multiplayer.protocol.server.SocketServer.ISocketServerListener.DefaultSocketServerListener;
