@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.camera.hud.controls.AnalogOnScreenControl;
 import org.andengine.engine.camera.hud.controls.AnalogOnScreenControl.IAnalogOnScreenControlListener;
@@ -21,8 +21,6 @@ import org.andengine.opengl.texture.bitmap.AssetBitmapTexture;
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

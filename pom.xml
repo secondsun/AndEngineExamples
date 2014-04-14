@@ -76,22 +76,6 @@
             <type>jar</type>
         </dependency>
 
-
-        <dependency>
-            <groupId>andengine</groupId>
-            <artifactId>andengine-texturepacker</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <type>apklib</type>
-        </dependency>
-
-        <dependency>
-            <groupId>andengine</groupId>
-            <artifactId>andengine-texturepacker</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>provided</scope>
-            <type>jar</type>
-        </dependency>
-
         <dependency>
             <groupId>andengine</groupId>
             <artifactId>andengine-svg</artifactId>

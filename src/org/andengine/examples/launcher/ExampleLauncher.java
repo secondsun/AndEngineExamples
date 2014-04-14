@@ -1,11 +1,5 @@
 package org.andengine.examples.launcher;
 
-import java.util.Arrays;
-
-import org.andengine.AndEngine;
-import org.andengine.examples.R;
-import org.andengine.util.debug.Debug;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ExpandableListActivity;
@@ -20,6 +14,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
+import java.util.Arrays;
+import org.andengine.AndEngine;
+import org.andengine.examples.R;
+import org.andengine.util.debug.Debug;
 
 /**
  * (c) 2010 Nicolas Gramlich

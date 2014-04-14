@@ -1,7 +1,8 @@
 package org.andengine.examples;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.camera.hud.HUD;
 import org.andengine.engine.options.EngineOptions;
@@ -57,9 +58,6 @@ import org.andengine.util.modifier.ease.EaseStrongIn;
 import org.andengine.util.modifier.ease.EaseStrongInOut;
 import org.andengine.util.modifier.ease.EaseStrongOut;
 import org.andengine.util.modifier.ease.IEaseFunction;
-
-import android.graphics.Color;
-import android.graphics.Typeface;
 
 /**
  * (c) 2010 Nicolas Gramlich

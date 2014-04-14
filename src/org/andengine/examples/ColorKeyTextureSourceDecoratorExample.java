@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.graphics.Color;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -15,8 +16,6 @@ import org.andengine.opengl.texture.atlas.bitmap.source.decorator.ColorKeyBitmap
 import org.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.RectangleBitmapTextureAtlasSourceDecoratorShape;
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.graphics.Color;
 
 /**
  * (c) 2010 Nicolas Gramlich

@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.graphics.Typeface;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.handler.timer.ITimerCallback;
 import org.andengine.engine.handler.timer.TimerHandler;
@@ -13,8 +14,6 @@ import org.andengine.opengl.font.Font;
 import org.andengine.opengl.font.FontFactory;
 import org.andengine.opengl.texture.TextureOptions;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.graphics.Typeface;
 
 /**
  * (c) 2010 Nicolas Gramlich

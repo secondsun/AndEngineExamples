@@ -1,8 +1,9 @@
 package org.andengine.examples;
 
+import android.opengl.GLES20;
+import android.widget.Toast;
 import java.io.IOException;
 import java.io.InputStream;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.camera.SmoothCamera;
 import org.andengine.engine.options.EngineOptions;
@@ -24,9 +25,6 @@ import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.debug.Debug;
-
-import android.opengl.GLES20;
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

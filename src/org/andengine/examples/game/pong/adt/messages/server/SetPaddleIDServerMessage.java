@@ -3,9 +3,8 @@ package org.andengine.examples.game.pong.adt.messages.server;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-
 import org.andengine.examples.game.pong.util.constants.PongConstants;
-import org.andengine.extension.multiplayer.protocol.adt.message.server.ServerMessage;
+import org.andengine.extension.multiplayer.adt.message.server.ServerMessage;
 
 /**
  * (c) 2010 Nicolas Gramlich 

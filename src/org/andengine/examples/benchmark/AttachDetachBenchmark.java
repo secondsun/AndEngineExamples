@@ -1,7 +1,7 @@
 package org.andengine.examples.benchmark;
 
+import android.opengl.GLES20;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.handler.timer.ITimerCallback;
 import org.andengine.engine.handler.timer.TimerHandler;
@@ -17,8 +17,6 @@ import org.andengine.opengl.texture.bitmap.AssetBitmapTexture;
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
-
-import android.opengl.GLES20;
 
 /**
  * (c) 2010 Nicolas Gramlich

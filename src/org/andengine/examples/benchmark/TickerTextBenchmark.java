@@ -1,5 +1,7 @@
 package org.andengine.examples.benchmark;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -12,9 +14,6 @@ import org.andengine.opengl.font.Font;
 import org.andengine.opengl.font.FontFactory;
 import org.andengine.opengl.texture.TextureOptions;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
-
-import android.graphics.Color;
-import android.graphics.Typeface;
 
 /**
  * (c) 2010 Nicolas Gramlich

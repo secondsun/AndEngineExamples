@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.view.KeyEvent;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -25,8 +25,6 @@ import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.adt.color.Color;
-
-import android.view.KeyEvent;
 
 /**
  * (c) 2010 Nicolas Gramlich

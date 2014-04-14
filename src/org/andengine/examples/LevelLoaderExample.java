@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -28,8 +28,6 @@ import org.andengine.util.level.simple.SimpleLevelEntityLoaderData;
 import org.andengine.util.level.simple.SimpleLevelLoader;
 import org.andengine.util.level.simple.SimpleLevelLoaderResult;
 import org.xml.sax.Attributes;
-
-import android.widget.Toast;
 
 
 /**

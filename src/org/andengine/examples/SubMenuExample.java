@@ -1,7 +1,6 @@
 package org.andengine.examples;
 
 import java.io.IOException;
-
 import org.andengine.entity.scene.menu.MenuScene;
 import org.andengine.entity.scene.menu.animator.SlideMenuSceneAnimator;
 import org.andengine.entity.scene.menu.item.IMenuItem;

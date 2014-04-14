@@ -1,9 +1,5 @@
 package org.andengine.examples.util;
 
-import java.util.Set;
-
-import org.andengine.examples.R;
-
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -20,6 +16,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import java.util.Set;
+import org.andengine.examples.R;
 
 /**
  * This Activity appears as a dialog. It lists any paired devices and

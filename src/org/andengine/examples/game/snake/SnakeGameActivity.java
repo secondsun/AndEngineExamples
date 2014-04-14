@@ -1,7 +1,7 @@
 package org.andengine.examples.game.snake;
 
+import android.graphics.Color;
 import java.io.IOException;
-
 import org.andengine.audio.sound.Sound;
 import org.andengine.audio.sound.SoundFactory;
 import org.andengine.engine.camera.Camera;
@@ -45,8 +45,6 @@ import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.adt.align.HorizontalAlign;
 import org.andengine.util.debug.Debug;
 import org.andengine.util.math.MathUtils;
-
-import android.graphics.Color;
 
 /**
  * (c) 2010 Nicolas Gramlich

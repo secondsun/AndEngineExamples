@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.opengl.GLES20;
 import java.io.IOException;
-
 import org.andengine.engine.Engine;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
@@ -29,8 +29,6 @@ import org.andengine.opengl.texture.render.RenderTexture;
 import org.andengine.opengl.util.GLState;
 import org.andengine.opengl.vbo.attribute.VertexBufferObjectAttributes;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.opengl.GLES20;
 
 /**
  * (c) Zynga 2011

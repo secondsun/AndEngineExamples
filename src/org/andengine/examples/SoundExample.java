@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import java.io.IOException;
-
 import org.andengine.audio.sound.Sound;
 import org.andengine.audio.sound.SoundFactory;
 import org.andengine.engine.camera.Camera;
@@ -21,8 +21,6 @@ import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.debug.Debug;
-
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

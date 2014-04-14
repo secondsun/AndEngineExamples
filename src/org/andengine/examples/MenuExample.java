@@ -1,7 +1,7 @@
 package org.andengine.examples;
 
+import android.view.KeyEvent;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -26,8 +26,6 @@ import org.andengine.util.adt.align.HorizontalAlign;
 import org.andengine.util.adt.align.VerticalAlign;
 import org.andengine.util.adt.spatial.Direction;
 import org.andengine.util.modifier.ease.EaseBounceOut;
-
-import android.view.KeyEvent;
 
 /**
  * (c) 2010 Nicolas Gramlich

@@ -1,7 +1,6 @@
 package org.andengine.examples;
 
 import java.util.Random;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;

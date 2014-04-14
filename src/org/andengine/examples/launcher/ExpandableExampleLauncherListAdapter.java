@@ -1,13 +1,12 @@
 package org.andengine.examples.launcher;
 
-import org.andengine.examples.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+import org.andengine.examples.R;
 
 /**
  * (c) 2010 Nicolas Gramlich 

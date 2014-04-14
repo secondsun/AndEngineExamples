@@ -1,7 +1,8 @@
 package org.andengine.examples;
 
+import android.opengl.GLES20;
+import android.widget.Toast;
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -27,9 +28,6 @@ import org.andengine.opengl.texture.bitmap.AssetBitmapTexture;
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.ui.activity.SimpleLayoutGameActivity;
-
-import android.opengl.GLES20;
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

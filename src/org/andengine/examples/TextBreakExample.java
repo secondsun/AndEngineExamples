@@ -1,5 +1,9 @@
 package org.andengine.examples;
 
+import android.graphics.Typeface;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -17,11 +21,6 @@ import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleLayoutGameActivity;
 import org.andengine.util.adt.align.HorizontalAlign;
 import org.andengine.util.adt.color.Color;
-
-import android.graphics.Typeface;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
 
 /**
  * (c) 2010 Nicolas Gramlich

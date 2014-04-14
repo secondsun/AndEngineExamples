@@ -1,7 +1,6 @@
 package org.andengine.examples;
 
 import java.io.IOException;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.handler.physics.PhysicsHandler;
 import org.andengine.engine.options.EngineOptions;

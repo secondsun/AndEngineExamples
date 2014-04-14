@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -24,8 +25,6 @@ import org.andengine.util.Constants;
 import org.andengine.util.adt.color.Color;
 import org.andengine.util.algorithm.collision.BaseCollisionChecker;
 import org.andengine.util.algorithm.hull.JarvisMarch;
-
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

@@ -1,8 +1,8 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import java.io.IOException;
 import java.util.HashMap;
-
 import org.andengine.engine.camera.ZoomCamera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -25,8 +25,6 @@ import org.andengine.opengl.texture.bitmap.AssetBitmapTexture;
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.opengl.texture.region.TextureRegionFactory;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

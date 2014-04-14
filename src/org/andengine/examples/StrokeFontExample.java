@@ -1,5 +1,7 @@
 package org.andengine.examples;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -14,9 +16,6 @@ import org.andengine.opengl.texture.ITexture;
 import org.andengine.opengl.texture.TextureOptions;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
-
-import android.graphics.Color;
-import android.graphics.Typeface;
 
 /**
  * (c) 2010 Nicolas Gramlich

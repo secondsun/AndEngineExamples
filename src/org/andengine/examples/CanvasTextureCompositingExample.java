@@ -1,5 +1,12 @@
 package org.andengine.examples;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.LightingColorFilter;
+import android.graphics.PorterDuff.Mode;
+import android.graphics.PorterDuffXfermode;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -18,14 +25,6 @@ import org.andengine.opengl.texture.atlas.bitmap.source.decorator.BaseBitmapText
 import org.andengine.opengl.texture.region.ITextureRegion;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.modifier.IModifier.DeepCopyNotSupportedException;
-
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.LightingColorFilter;
-import android.graphics.PorterDuff.Mode;
-import android.graphics.PorterDuffXfermode;
 
 /**
  * (c) 2010 Nicolas Gramlich

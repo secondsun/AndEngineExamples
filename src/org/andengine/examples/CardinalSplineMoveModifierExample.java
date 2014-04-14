@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.opengl.GLES20;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -17,8 +18,6 @@ import org.andengine.entity.util.FPSLogger;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.math.MathUtils;
 import org.andengine.util.modifier.ease.EaseLinear;
-
-import android.opengl.GLES20;
 
 /**
  * (c) 2010 Nicolas Gramlich

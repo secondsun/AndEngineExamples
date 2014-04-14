@@ -1,9 +1,19 @@
 package org.andengine.examples.game.pong;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.graphics.Color;
+import android.util.SparseArray;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Toast;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
-
 import org.andengine.engine.Engine;
 import org.andengine.engine.LimitedFPSEngine;
 import org.andengine.engine.camera.Camera;
@@ -30,7 +40,7 @@ import org.andengine.examples.game.pong.adt.messages.server.UpdateBallServerMess
 import org.andengine.examples.game.pong.adt.messages.server.UpdatePaddleServerMessage;
 import org.andengine.examples.game.pong.adt.messages.server.UpdateScoreServerMessage;
 import org.andengine.examples.game.pong.util.constants.PongConstants;
-import org.andengine.extension.multiplayer.protocol.adt.message.server.IServerMessage;
+import org.andengine.extension.multiplayer.adt.message.server.IServerMessage;
 import org.andengine.extension.multiplayer.protocol.client.IServerMessageHandler;
 import org.andengine.extension.multiplayer.protocol.client.connector.ServerConnector;
 import org.andengine.extension.multiplayer.protocol.client.connector.SocketConnectionServerConnector.ISocketConnectionServerConnectorListener;
@@ -47,18 +57,6 @@ import org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.debug.Debug;
-
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
-import android.graphics.Color;
-import android.util.SparseArray;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.EditText;
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich

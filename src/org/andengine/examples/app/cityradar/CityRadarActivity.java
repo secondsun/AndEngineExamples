@@ -1,9 +1,14 @@
 package org.andengine.examples.app.cityradar;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.Bundle;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.camera.hud.HUD;
 import org.andengine.engine.options.EngineOptions;
@@ -37,13 +42,6 @@ import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.debug.Debug;
 import org.andengine.util.math.MathUtils;
 import org.andengine.util.modifier.ease.EaseLinear;
-
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.location.Criteria;
-import android.location.Location;
-import android.location.LocationManager;
-import android.os.Bundle;
 
 public class CityRadarActivity extends SimpleBaseGameActivity implements IOrientationListener, ILocationListener {
 	// ===========================================================

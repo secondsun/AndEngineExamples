@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.graphics.Typeface;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -13,8 +14,6 @@ import org.andengine.opengl.font.FontFactory;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.adt.align.HorizontalAlign;
-
-import android.graphics.Typeface;
 
 /**
  * (c) 2010 Nicolas Gramlich

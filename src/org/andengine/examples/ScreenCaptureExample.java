@@ -1,5 +1,6 @@
 package org.andengine.examples;
 
+import android.widget.Toast;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -22,8 +23,6 @@ import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.ui.activity.SimpleBaseGameActivity;
 import org.andengine.util.FileUtils;
 import org.andengine.util.adt.color.Color;
-
-import android.widget.Toast;
 
 /**
  * (c) 2010 Nicolas Gramlich 

@@ -3,7 +3,6 @@ package org.andengine.examples.adt.messages.client;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-
 import org.andengine.extension.multiplayer.protocol.adt.message.client.ClientMessage;
 
 /**

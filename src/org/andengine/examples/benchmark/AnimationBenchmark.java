@@ -1,5 +1,6 @@
 package org.andengine.examples.benchmark;
 
+import android.opengl.GLES20;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -28,8 +29,6 @@ import org.andengine.opengl.vbo.VertexBufferObjectManager;
 import org.andengine.opengl.vbo.attribute.VertexBufferObjectAttributes;
 import org.andengine.opengl.vbo.attribute.VertexBufferObjectAttributesBuilder;
 import org.andengine.util.debug.Debug;
-
-import android.opengl.GLES20;
 
 /**
  * (c) 2010 Nicolas Gramlich

@@ -1,7 +1,6 @@
 package org.andengine.examples.game.snake.entity;
 
 import java.util.LinkedList;
-
 import org.andengine.entity.Entity;
 import org.andengine.examples.game.snake.adt.Direction;
 import org.andengine.examples.game.snake.adt.SnakeSuicideException;
